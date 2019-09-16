@@ -1,9 +1,12 @@
 theme: jekyll-theme-minimal
 
 logo: ./logo.png
-description: > 
-  Datascience and machine learning intro, ,,,ahdufuidshlgdfu hfdsldfhg hsdfgh dhslg dshf fdhslk gfhsufsdig jidh wehfgsid fiuhsi hdf
-  dsfuvskudfhgusd nfguhufiw
+description: >
+  This page contain two of my projects relating to data science/machine learning.
+  The first project is an outreach project for NYC's local non-profit organization CityHarvest 
+  on the subject of food insecurity. The second project is a machine generated spin off issue of 
+  the Cooper Pioneer, the school newspaper.
+  
   sdf hfduh;eig
   <br><br>
   <a href='https://raymondminglee.github.io'>Back to homepage</a>

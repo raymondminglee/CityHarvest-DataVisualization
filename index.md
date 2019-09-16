@@ -27,8 +27,13 @@ During the training process, 10 out of 195 NTA district were selected randomly a
 
 We decided to present the model with a interactive website, the website is coded using Dash, a python framworks for building data visualization web page. The deplyment of the website is done using Heroku. Now, try out wenbsite, Design Your Own City!
 
-
-
+```python
+plt.figure(figsize=(12,8))
+plt.hist(twitter_df_clean['rating_numerator'], bins=np.arange(min(twitter_df_clean['rating_numerator']), twitter_df_clean.rating_numerator.quantile(.99), 1), color="teal")
+plt.title('Distribution of WeRateDogs dog rating', fontsize=16)
+plt.xlabel('dog rating (value out of 10)')
+plt.show()
+```
 
 
 

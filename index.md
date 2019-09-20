@@ -12,24 +12,24 @@ Through our analysis, we picked up 3 NTA district and compare them on the number
 
 ## Time Leap Map
 For the second project we created a website that charted out the meals served in the various city community districts over the years. We implemented this visual so that the user can click through the various years and see how the distribution and concentration of meals served changed over the years in New York City. 
-We cleaned up over 15 years of data from CityHarvest and FeedNYC on New York's overall meal served. Then density map is vreated using Tableau, and the website is developed in glitch.com framwork. 
+We cleaned up over 15 years of data from CityHarvest and FeedNYC on New York's overall meal served. Then density map is vreated using Tableau, and the website is developed in glitch.com framwork.  
+  
+A few entry of the data set looks like the following, for confidential reason, we could not upload the full dataset.  
+
 ```python
 import pandas as pd
-data = pd.read_excel('20013-present.xlsx')
+data = pd.read_excel('2013-present.xlsx')
 data.head()
 ```
-```
 
-Statistic Date	Distribution Zip	Children Served	Adults Served	Seniors Served	Total Served	Distribution City	Distribution State
-0	2013-12-31	10001	8040	190036	12690	210766	NaN	NaN
-1	NaT	        10002	5771	240308	27600	273679	NaN	NaN
-2	NaT	        10003	2830	14977	9383	27190	NaN	NaN
-3	NaT	        10005	950	    603	    7	    1560	NaN	NaN
-4	NaT	        10009	41179	171251	49099	261529	NaN	NaN
-```
+<img src="pic/data.png?raw=true"/>
+
+Now, lets preceed to out time leap website!
+
+[<img src="pic/mapweb.png?raw=true"/>](https://cityharvest.glitch.me)
 
 
-Here is a link to our website: https://nycity-meals.glitch.me/
+Here is a link to our website: [Click Here](https://nycity-meals.glitch.me/)
 
 ## Interactive Website
 For the Third project, we implemented machine learning to analyze how different aspects of a community impact food insecurity. Since we not only had data on New York City's meal gap, but also have access to public census data, we think that we can run a model with inputs as some chosen feature of a certain neiborhood, and output as food insecurity indicators. This would serve as a tool for understating correlation between the made up of the neiborhood and its food insecurity problem. Furthermore, it could potentially been used as a predictive model.  

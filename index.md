@@ -8,12 +8,26 @@ Our goal in working with City Harvest is to provide an overview of the Food Land
 ## Exploratory Poster
 For the first project, we could only acess to a data containing all the CityHarvest affiliated food agency and their address at that time. So with limited data to work with, we decided to run a exploratory data analysis and made a poster illustrating some information.  
 Through our analysis, we picked up 3 NTA district and compare them on the number of food banks, meal served, and neiborhood's average income. The poster is shown below.
-
+<img src="pic/poster.png?raw=true"/>
 
 ## Time Leap Map
 For the second project we created a website that charted out the meals served in the various city community districts over the years. We implemented this visual so that the user can click through the various years and see how the distribution and concentration of meals served changed over the years in New York City. 
 We cleaned up over 15 years of data from CityHarvest and FeedNYC on New York's overall meal served. Then density map is vreated using Tableau, and the website is developed in glitch.com framwork. 
+```python
+import pandas as pd
+data = pd.read_excel('20013-present.xlsx')
+data.head
+data.head
+```
+```
 
+Statistic Date	Distribution Zip	Children Served	Adults Served	Seniors Served	Total Served	Distribution City	Distribution State
+0	2013-12-31	10001	8040	190036	12690	210766	NaN	NaN
+1	NaT	10002	5771	240308	27600	273679	NaN	NaN
+2	NaT	10003	2830	14977	9383	27190	NaN	NaN
+3	NaT	10005	950	603	7	1560	NaN	NaN
+4	NaT	10009	41179	171251	49099	261529	NaN	NaN
+```
 
 
 Here is a link to our website: https://nycity-meals.glitch.me/

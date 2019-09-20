@@ -16,17 +16,16 @@ We cleaned up over 15 years of data from CityHarvest and FeedNYC on New York's o
 ```python
 import pandas as pd
 data = pd.read_excel('20013-present.xlsx')
-data.head
-data.head
+data.head()
 ```
 ```
 
 Statistic Date	Distribution Zip	Children Served	Adults Served	Seniors Served	Total Served	Distribution City	Distribution State
 0	2013-12-31	10001	8040	190036	12690	210766	NaN	NaN
-1	NaT	10002	5771	240308	27600	273679	NaN	NaN
-2	NaT	10003	2830	14977	9383	27190	NaN	NaN
-3	NaT	10005	950	603	7	1560	NaN	NaN
-4	NaT	10009	41179	171251	49099	261529	NaN	NaN
+1	NaT	        10002	5771	240308	27600	273679	NaN	NaN
+2	NaT	        10003	2830	14977	9383	27190	NaN	NaN
+3	NaT	        10005	950	    603	    7	    1560	NaN	NaN
+4	NaT	        10009	41179	171251	49099	261529	NaN	NaN
 ```
 
 

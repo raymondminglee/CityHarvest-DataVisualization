@@ -79,6 +79,9 @@ During the training process, 10 out of 195 NTA district were selected randomly a
 
 We decided to present the model with a interactive website, the website is coded using Dash, a python framworks for building data visualization web page. The deplyment of the website is done using Heroku. Now, try our wenbsite, [Design Your Own City!](http://cityharvest-app.herokuapp.com/)
 
+[<img src="pic/data_nta.png?raw=true"/>](http://cityharvest-app.herokuapp.com/)
+
+
 ## Code and Dataset
 All relative code is uploaded on to my gthub [repository](https://github.com/raymondminglee/CityHarvest-DataVisualization), Due to confidential reason, we could not share our dataset online. 
 

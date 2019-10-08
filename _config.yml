@@ -1,6 +1,5 @@
 theme: jekyll-theme-minimal
 
-logo: ./logo.png
 description: >
   This page contain two of my projects relating to data science/machine learning.
   The first project is an outreach project for NYC's local non-profit organization CityHarvest 

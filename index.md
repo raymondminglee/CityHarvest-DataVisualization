@@ -70,8 +70,11 @@ X_test = scaler.transform(X_test)
 Y_test = Y_test.values
 Y_train = Y_train.values
 
-clf = svm.SVR(kernel='rbf', C=1e9, gamma=0.1)
-clf.fit(X_train, Y_train)
+clf = linear_model.Lasso(alpha=0.001, copy_X=True, fit_intercept=True, max_iter=70000,
+                         normalize=False, positive=False, precompute=False, random_state=None,
+                         selection='cyclic', tol=0.000001, warm_start=False)
+clf.fit(X_train_norm, Y_train_norm)
+
 result = clf.predict(X_test)
 accuracy_score(Y_te, result)
 ```

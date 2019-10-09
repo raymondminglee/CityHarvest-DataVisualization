@@ -89,8 +89,5 @@ We decided to present the model with a interactive website, the website is coded
 All relative code is uploaded on to my gthub [repository](https://github.com/raymondminglee/CityHarvest-DataVisualization/tree/master/code), Due to confidential reason, we could not share our dataset online. 
 
 
----
-
-# AI Pioneer
 
 
